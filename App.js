@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import * as Location from 'expo-location'
 import WeatherInfo from './components/WeatherInfo'
 
-const WEATHER_API_KEY = 'a40e2ac4a8810331d583baa9e07472b7'
+const WEATHER_API_KEY = 'must be replaced with real key from openweathermap.org'
 const BASE_WEATHER_URL = 'https://api.openweathermap.org/data/2.5/weather?'
 
 export default function App() {
